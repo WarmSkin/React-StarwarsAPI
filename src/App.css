@@ -37,14 +37,35 @@
   }
 }
 
+header {
+  background-color: #282c34;
+  color: aliceblue;
+  text-align: center;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1794&q=80);
+}
+
 .starshipList {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template:  repeat(2, 1fr)/ repeat(5, 1fr);
 }
 
 .starship {
-  background-color: greenyellow;
+  background-color: #282c34;
+  color: aliceblue;
   width: 200px;
   height: 300px;
   margin: 5px;
 }
+
+.starship-detail {
+  background-color: #282c34;
+  color: aliceblue;
+  width: 500px;
+  height: 500px;
+  padding: 8px;
+  border: 2px solid whitesmoke;
+}
+

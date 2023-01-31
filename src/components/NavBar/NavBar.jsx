@@ -3,7 +3,7 @@
 const NavBar = () => {
   return (
     <header>
-      <h1>Hi I am a NavBar!</h1>
+      <h1>Starships</h1>
     </header>
   );
 };

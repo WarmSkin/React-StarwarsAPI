@@ -15,7 +15,6 @@ const StarshipsList = () => {
 
   return (
     <>
-      <h3>Starships List</h3>
       {starshipsLIst.length ?
         <div className='starshipList'>
           {starshipsLIst.map((starship, index) =>
