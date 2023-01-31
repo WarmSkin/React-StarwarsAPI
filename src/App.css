@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.starshipList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.starship {
+  background-color: greenyellow;
+  width: 200px;
+  height: 300px;
+  margin: 5px;
+}
